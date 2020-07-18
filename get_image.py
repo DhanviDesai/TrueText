@@ -26,4 +26,4 @@ def read_image(filename):
     lower = v//2
     upper = v//2 + 20
     canny = cv2.Canny(blur,lower,upper)
-    return image,img_gray,v,canny
+    return image_width,image_height,image,img_gray,v,canny,background_color
